@@ -2,6 +2,7 @@ package br.com.produtoAPI.controller;
 
 import java.util.List;
 
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -15,6 +16,7 @@ import br.com.produtoAPI.model.Produto;
 import br.com.produtoAPI.repository.ProdutoRepository;
 
 @RestController
+@CrossOrigin("*")
 @RequestMapping("produtos")
 public class ProdutoController {
 	

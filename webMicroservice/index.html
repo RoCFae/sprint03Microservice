@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/produto.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <title>Relatórios Email</title>
+</head>
+<body>
+    <div class="box">
+        <h1>Relatórios</h1>
+        <a class="link" href="produtos.html">Produtos</a>
+
+        <div>
+            <div class="form__group field">
+                <input type="input" class="form__field" placeholder="Name" name="name" id='search' required />
+                <label for="name" class="form__label">Name</label>
+            </div>
+            <button id="btn" class="btnSearch"><i class="fa fa-search"></i></button>
+        </div>
+
+        <div class="reports">
+            <table id="table">
+                <thead>
+                    <tr>
+                        <th>Data de Envio</th>
+                        <th>Data de Recebimento</th>
+                        <th>Conteúdo</th>
+                        <th>Assunto</th>
+                        <th>Autor</th>
+                    </tr>
+                </thead>
+                <tbody id="email-data">
+                    <!-- Popular com js -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

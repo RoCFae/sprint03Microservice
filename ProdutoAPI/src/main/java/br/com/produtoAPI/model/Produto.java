@@ -6,7 +6,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="Produtos")
+@Table(name="produtos")
 public class Produto {
 	
 	//VARIAVEIS PRODUTO
